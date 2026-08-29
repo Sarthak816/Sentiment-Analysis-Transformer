@@ -9,7 +9,7 @@ This project implements a **custom Transformer-based model** for binary sentimen
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 1. **Load and explore** the IMDB dataset with proper data analysis
 2. **Implement a custom Dataset class** in PyTorch with proper data handling
@@ -19,22 +19,22 @@ This project implements a **custom Transformer-based model** for binary sentimen
 
 ---
 
-## 📊 Key Features
+## Key Features
 
-### ✅ Complete Implementation
-- ✨ **Data Loading & Exploration**: Comprehensive EDA with visualizations
-- 🔤 **Custom Vocabulary**: Build vocabulary from training data with tokenization
-- 📦 **PyTorch Dataset**: Custom `IMDBDataset` class with proper indexing
-- 🤖 **Transformer Model**: Custom `DemoGPT` architecture with:
+### Complete Implementation
+- Data Loading & Exploration: Comprehensive EDA with visualizations
+- Custom Vocabulary: Build vocabulary from training data with tokenization
+- PyTorch Dataset: Custom `IMDBDataset` class with proper indexing
+- Transformer Model: Custom `DemoGPT` architecture with:
   - Multi-head self-attention mechanism
   - Positional encoding
   - Feedforward networks
   - Layer normalization and dropout
-- 🎓 **Training Pipeline**: Complete training loop with validation
-- 📈 **Accuracy Tracking**: Real-time metrics and visualizations
-- 🚀 **Inference Interface**: Easy-to-use `SentimentClassifier` class
+- Training Pipeline: Complete training loop with validation
+- Accuracy Tracking: Real-time metrics and visualizations
+- Inference Interface: Easy-to-use `SentimentClassifier` class
 
-### 🎨 Visualizations
+### Visualizations
 - Sentiment distribution (train/test)
 - Review length distribution
 - Training/validation loss curves
@@ -42,7 +42,7 @@ This project implements a **custom Transformer-based model** for binary sentimen
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Sentiment-Analysis-Transformer/
@@ -63,7 +63,7 @@ Sentiment-Analysis-Transformer/
 
 ---
 
-## 🔧 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -91,7 +91,7 @@ print(f"CUDA available: {torch.cuda.is_available()}")
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Running the Complete Pipeline
 
@@ -146,7 +146,7 @@ for review, (sentiment, conf) in zip(reviews, results):
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 ### DemoGPT Transformer
 
@@ -190,7 +190,7 @@ Classification Head
 
 ---
 
-## 📈 Results
+## Results
 
 ### Performance Metrics
 
@@ -215,7 +215,7 @@ Final Test Accuracy: 80.5% ✅
 
 ---
 
-## 💡 Key Implementation Details
+## Key Implementation Details
 
 ### 1. Custom Dataset Class
 
@@ -285,7 +285,7 @@ def train_model(model, train_loader, val_loader, ...):
 
 ---
 
-## 📊 Data Exploration
+## Data Exploration
 
 ### Dataset Statistics
 
@@ -313,7 +313,7 @@ Review Length:
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I gained practical experience in:
 
@@ -327,7 +327,7 @@ Through this project, I gained practical experience in:
 
 ---
 
-## 🔬 Experimentation
+## Experimentation
 
 ### Hyperparameter Tuning
 
@@ -351,7 +351,7 @@ Different configurations tested:
 
 ---
 
-## 🚧 Future Improvements
+## Future Improvements
 
 ### Potential Enhancements
 
@@ -374,7 +374,7 @@ Different configurations tested:
 
 ---
 
-## 📝 Project Rubric Checklist
+## Project Rubric Checklist
 
 ### ✅ Load, Explore, and Prepare Data
 - ✅ Helper function loads dataset correctly
@@ -400,19 +400,19 @@ Different configurations tested:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is an academic project for the AWS AI & ML Scholarship Program. While contributions are not expected, feedback and suggestions are welcome!
 
 ---
 
-## 📄 License
+## License
 
 This project is part of the Udacity AWS AI & ML Scholarship Program.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Udacity** for the excellent course structure and guidance
 - **PyTorch Team** for the amazing deep learning framework
@@ -421,7 +421,7 @@ This project is part of the Udacity AWS AI & ML Scholarship Program.
 
 ---
 
-## 📧 Contact
+## Contact
 
 **Author**: Sarthak  
 **GitHub**: [@Sarthak816](https://github.com/Sarthak816)  
@@ -429,16 +429,17 @@ This project is part of the Udacity AWS AI & ML Scholarship Program.
 
 ---
 
-## 🌟 Project Status
+## Project Status
 
-✅ **COMPLETE** - All requirements met successfully!
+**COMPLETE** - All requirements met successfully!
 
-- [x] Data loading and exploration
-- [x] Custom Dataset implementation
-- [x] Transformer model architecture
-- [x] Training pipeline
-- [x] >75% test accuracy achieved
-- [x] Inference interface
-- [x] Documentation and report
+All project deliverables have been completed and tested:
+- Data loading and exploration
+- Custom Dataset implementation
+- Transformer model architecture
+- Training pipeline
+- Test accuracy >75% achieved
+- Inference interface
+- Documentation and report
 
-**Ready for submission!** 🎉
+Ready for submission.
