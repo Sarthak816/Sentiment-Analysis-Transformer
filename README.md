@@ -427,8 +427,3 @@ This project is part of the Udacity AWS AI & ML Scholarship Program.
 **GitHub**: [@Sarthak816](https://github.com/Sarthak816)  
 **Project**: AWS AI Programming Nanodegree
 
----
-
-
-
-Ready for submission.
